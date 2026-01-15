@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Cpu, Radio } from 'lucide-react';
+import { Radio } from 'lucide-react';
 
 interface HeaderProps {
   className?: string;
@@ -13,25 +13,7 @@ export default function Header({ className }: HeaderProps) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.1 }}
     >
-      {/* Logo */}
-      <motion.div 
-        className="flex items-center gap-3"
-        initial={{ opacity: 0, x: -20 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-      >
-        <div className="relative">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-            <Cpu className="w-6 h-6 text-primary-foreground" />
-          </div>
-          {/* Glow effect */}
-          <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary to-secondary blur-lg opacity-50 -z-10" />
-        </div>
-        <div>
-          <div className="text-sm font-rajdhani font-bold text-foreground">FLEET<span className="text-primary">AI</span></div>
-          <div className="text-[8px] text-muted-foreground tracking-wider">INTELLIGENCE PLATFORM</div>
-        </div>
-      </motion.div>
+      <div />
 
       {/* Main Title */}
       <motion.div 
