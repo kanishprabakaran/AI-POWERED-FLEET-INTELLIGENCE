@@ -18,7 +18,7 @@ interface TVGLEdge {
 
 const nodes: TVGLNode[] = [
   { id: 'speed', label: 'Speed', x: 0.5, y: 0.15, color: '#00D4FF' },
-  { id: 'rpm', label: 'RPM', x: 0.85, y: 0.35, color: '#00FF41' },
+  { id: 'rpm', label: 'RPM', x: 0.85, y: 0.35, color: '#34B253' },
   { id: 'maf', label: 'MAF', x: 0.85, y: 0.65, color: '#FF6B35' },
   { id: 'load', label: 'Load', x: 0.5, y: 0.85, color: '#9D4EDD' },
   { id: 'ac', label: 'AC', x: 0.15, y: 0.65, color: '#FFD60A' },

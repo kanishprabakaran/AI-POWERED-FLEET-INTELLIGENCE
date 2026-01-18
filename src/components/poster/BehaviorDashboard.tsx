@@ -219,7 +219,7 @@ export default function BehaviorDashboard({ behavior, scores, context, className
             <motion.div
               className="h-full rounded-full"
               style={{
-                background: `linear-gradient(90deg, #FF3838 0%, #FFD60A 50%, #00FF41 100%)`,
+                background: `linear-gradient(90deg, #FF3838 0%, #FFD60A 50%, #34B253 100%)`,
                 width: `${(scores.personalScore / scores.fleetScore) * 100}%`,
               }}
               initial={{ width: 0 }}

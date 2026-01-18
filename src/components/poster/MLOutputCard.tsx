@@ -93,7 +93,7 @@ export default function MLOutputCard({ predictions, className }: MLOutputCardPro
           <TrendingUp className="w-3 h-3 text-secondary" />
           <span className="text-[9px] text-muted-foreground">Rolling KPL Trend</span>
         </div>
-        <MiniSparkline data={predictions.rollingKPL} color="#00FF41" />
+        <MiniSparkline data={predictions.rollingKPL} color="#34B253" />
       </div>
     </motion.div>
   );

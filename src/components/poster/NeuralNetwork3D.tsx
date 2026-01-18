@@ -41,7 +41,7 @@ function NeuralNetwork() {
     // Output layer
     for (let i = 0; i < outputNodes; i++) {
       const y = (i - (outputNodes - 1) / 2) * 0.4;
-      result.push({ position: [1.2, y, 0], layer: 'output', color: '#00FF41' });
+      result.push({ position: [1.2, y, 0], layer: 'output', color: '#34B253' });
     }
     
     return result;
@@ -285,7 +285,7 @@ export default function NeuralNetwork3D({ className }: NeuralNetwork3DProps) {
       >
         <ambientLight intensity={0.4} />
         <pointLight position={[-3, 2, 2]} color="#00D4FF" intensity={0.4} />
-        <pointLight position={[3, -2, 2]} color="#00FF41" intensity={0.3} />
+        <pointLight position={[3, -2, 2]} color="#34B253" intensity={0.3} />
         
         <NeuralNetwork />
         <DataFlow />

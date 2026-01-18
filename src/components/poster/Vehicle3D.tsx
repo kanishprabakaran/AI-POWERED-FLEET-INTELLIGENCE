@@ -111,7 +111,7 @@ function DataEmissionPoints() {
 
   const emissionPoints = [
     { pos: [0, 0.55, 0], color: '#00D4FF' }, // Top sensor
-    { pos: [0.6, 0.15, 0], color: '#00FF41' }, // Front sensor
+    { pos: [0.6, 0.15, 0], color: '#34B253' }, // Front sensor
     { pos: [-0.6, 0.15, 0], color: '#FF6B35' }, // Rear sensor
   ];
 
@@ -166,7 +166,7 @@ function StreamingData() {
     
     const colorPalette = [
       new THREE.Color('#00D4FF'),
-      new THREE.Color('#00FF41'),
+      new THREE.Color('#34B253'),
     ];
 
     for (let i = 0; i < particleCount; i++) {

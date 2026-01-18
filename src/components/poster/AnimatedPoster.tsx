@@ -172,7 +172,7 @@ export default function AnimatedPoster() {
               </motion.section>
 
               {/* Connector */}
-              <DataFlowConnector color="#00FF41" className="w-[1.5%]" />
+              <DataFlowConnector color="#34B253" className="w-[1.5%]" />
 
               {/* Stage 3: Behavior Analysis - 26% (LARGEST) */}
               <motion.section 

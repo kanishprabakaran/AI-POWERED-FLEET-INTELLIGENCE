@@ -23,8 +23,8 @@
     --primary: 189 100% 50%;
     --primary-foreground: 0 0% 0%;
 
-    /* Secondary - Neon Green */
-    --secondary: 135 100% 50%;
+    /* Secondary - Muted Green */
+    --secondary: 135 55% 45%;
     --secondary-foreground: 0 0% 0%;
 
     /* Muted */
@@ -43,8 +43,8 @@
     --warning: 18 100% 60%;
     --warning-foreground: 0 0% 0%;
 
-    /* Success - Neon Green */
-    --success: 135 100% 50%;
+    /* Success - Muted Green */
+    --success: 135 55% 45%;
     --success-foreground: 0 0% 0%;
 
     /* Coaching - Yellow */
@@ -63,7 +63,7 @@
 
     /* Glow effects */
     --glow-blue: 189 100% 50%;
-    --glow-green: 135 100% 50%;
+    --glow-green: 135 55% 45%;
     --glow-orange: 18 100% 60%;
     --glow-purple: 270 73% 59%;
     --glow-yellow: 49 100% 52%;
@@ -118,9 +118,9 @@
 
   .glass-card-green {
     @apply glass-card;
-    box-shadow: 0 0 30px rgba(0, 255, 65, 0.15),
-                inset 0 0 30px rgba(0, 255, 65, 0.05);
-    border-color: rgba(0, 255, 65, 0.3);
+    box-shadow: 0 0 24px rgba(52, 178, 83, 0.12),
+                inset 0 0 24px rgba(52, 178, 83, 0.04);
+    border-color: rgba(52, 178, 83, 0.25);
   }
 
   .glass-card-orange {
@@ -152,9 +152,9 @@
   }
 
   .glow-text-green {
-    text-shadow: 0 0 10px hsl(var(--secondary)),
-                 0 0 20px hsl(var(--secondary)),
-                 0 0 40px hsl(var(--secondary) / 0.5);
+    text-shadow: 0 0 6px hsl(var(--secondary) / 0.9),
+                 0 0 12px hsl(var(--secondary) / 0.7),
+                 0 0 20px hsl(var(--secondary) / 0.35);
   }
 
   .glow-text-purple {
